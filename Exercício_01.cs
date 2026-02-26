@@ -252,3 +252,69 @@ Console.WriteLine($"Ficha Completa: {ficha}");
 */
 
 // Exercício 17
+
+/*
+
+double b = 12.63;
+
+int meuInt = (int)b;
+Console.WriteLine(meuInt);
+
+long meuLong = (long)b;
+
+double numeroResto = (meuInt - b);
+Console.WriteLine(numeroResto);
+
+*/
+
+// Exercício 18
+
+/*
+
+double capital = 1000.00;
+
+double juros = 5;
+
+double meses = 12;
+
+double montante = capital * Math.Pow(1 + juros/100, meses);
+Console.WriteLine($"O Calculo do resultado do montante acumulado sera: R${montante}");
+
+*/
+
+// Exercício 19
+
+/*
+
+Console.WriteLine("Digite seu nome: ");
+string nome = Console.ReadLine();
+
+Console.WriteLine("Digite seu sobrenome:");
+string sobrenome = Console.ReadLine();
+
+Console.WriteLine("Informe o nome da Empresa:");
+string empresa = Console.ReadLine();
+
+Console.WriteLine($"Endereco de email: {nome}.{sobrenome}@{empresa}.com.br ");
+
+*/
+
+// Exercício 20
+
+/*
+
+Console.WriteLine("Digite a senha:");
+string senha = Console.ReadLine();
+
+int totalCarac = senha.Length;
+Console.WriteLine($"Numero de quantos caracteres tem a senha: {totalCarac}");
+
+char num = '1';
+bool temNum = char.IsDigit(num);
+
+char maiusculo = 'A';
+bool temMaius = char.IsUpper(maiusculo);
+
+Console.WriteLine($"E a senha possui um numero? {temNum}, a senha tem letra Maiuscula? {temMaius}.");
+
+*/
