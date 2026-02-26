@@ -68,5 +68,31 @@ if (numero2 >= numero1)
     Console.WriteLine("O Segundo Número precisa ser Maior que o Primeiro");
     return;
 }
+*/
+// Exercício 04
+/*
+Console.WriteLine("Quantas Jogadas serão Efetuadas: ");
 
+Random random = new Random();
+
+int[] resultado = new int[10];
+
+foreach (int numero in resultado)
+{
+    int numeroSorteado = random.Next(0, 100);
+    Console.WriteLine(numeroSorteado);    
+}
+*/
+
+// Exercício 05
+/*
+Random random = new Random();
+
+int[] resultado = new int[10];
+
+for (int i = 0; i < 10; i++)
+{
+    int numeroSorteado = random.Next(0, 10);
+    resultado[i] = numeroSorteado;
+}
 */
