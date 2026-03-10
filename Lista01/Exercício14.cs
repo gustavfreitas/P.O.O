@@ -21,3 +21,4 @@ foreach (string nome in nomes)
 }
 
 Console.WriteLine($"As iniciais de {nomeCompleto} são: {iniciais}");
+*/
