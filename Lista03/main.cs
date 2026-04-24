@@ -32,6 +32,27 @@ class Programa
 
         oRetangulo.CalcularPerimetro();
         */
+        
+        /*
+        // Exercício 04
+        
+        public class ContaBancaria
+{
+    public static void Main(string[] args)
+    {
+        Pessoa pessoa = new Pessoa();
+        pessoa.Cpf = "3472987542987432986";
+        pessoa.dinheiroCarteira = 50;
+
+        Banco santander = new Banco();
+        santander.CriarConta(pessoa.Cpf);
+
+        pessoa.Depositar(30, santander);
+        pessoa.Sacar(20, santander);
+        pessoa.Sacar(20, santander);
+    }
+}
+        */
     }
 }
 
